@@ -21,7 +21,6 @@ const LogoImg = styled.div`
 
 const LogoBlock1 =styled.div`
     width: 100vw;
-    height: 130vh;
     background-color: rgb(48, 54, 213);
     background: linear-gradient(to bottom right, blue, #8f91d1);
 `;
@@ -40,7 +39,6 @@ const Content = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 `;
 
 const Techpartner = styled.div`
@@ -67,7 +65,6 @@ const Logo = () => {
                 </Content>
             </LogoBlock>
             <Portfolio/>
-            <PortfolioContent/>
         </LogoBlock1>
     );
 }

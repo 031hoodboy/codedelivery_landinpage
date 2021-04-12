@@ -12,7 +12,6 @@ import Example8 from '../images/example8.png';
 
 const PortfolioContentBlock = styled.div`
     width: 100vw;
-    height: 50vh;
 `;
 
 const ContentWrapper = styled.div`

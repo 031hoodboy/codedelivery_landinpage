@@ -1,9 +1,10 @@
 import React from 'react';
 
 const Footer = () => {
-    return (
-        sd
-    );
+    return(
+        <>
+        </>
+    )
 }
 
 export default Footer;
