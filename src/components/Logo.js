@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import CodedeliveryMainlogo from '../images/codedelivery_mainlogo_white.png';
 import Portfolio from '../components/Portfolio';
-import PortfolioContent from '../components/PortfolioContent';
 
 const LogoImg = styled.div`
     background-image: url(${CodedeliveryMainlogo});

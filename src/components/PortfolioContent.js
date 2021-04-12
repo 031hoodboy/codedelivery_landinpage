@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Contact from './Contact';
 import Example1 from '../images/example1.png';
 import Example2 from '../images/example2.png';
 import Example3 from '../images/example3.png';
