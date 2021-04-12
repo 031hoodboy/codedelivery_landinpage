@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { createGlobalStyle } from 'styled-components'
+import Client from './components/Client';
+// import Contact from './components/Client';
+// import Footer from './components/Footer';
+import Logo from './components/Logo';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+const GlobalStyle = createGlobalStyle`
+  body {
+    
+  }
+`;
+
+// #3036CD
+const App =() => {
+  return(
+    <>
+      <GlobalStyle/>
+      <Logo/>
+      <Client/>
+     {/*<Contact/>
+      <Footer/> */}
+    </>
   );
 }
 
